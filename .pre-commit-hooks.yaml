@@ -1,5 +1,5 @@
 - id: rebar3-format
   name: rebar3 format
   language: docker_image
-  entry: erlang:latest rebar3 format
+  entry: --user 0 erlang:latest rebar3 format
   types: [file]
